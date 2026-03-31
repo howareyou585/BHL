@@ -1,8 +1,5 @@
-#include "plugin.h"
-int main() {
-	
-	//1.不透明指针的使用
-	excutePlugin01();
+#include "cad.h"
 
-	return 0;
+int main() {
+    return cad_main();
 }
